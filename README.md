@@ -17,8 +17,8 @@ The Service Helper is a PowerShell script with a graphical user interface (GUI) 
 - **Debug Console:** Includes a console for debugging information, helping users track actions and errors.
 
 ## Getting Started
-1. **Prepare Configuration:** Create a `config.txt` file with the server names and associated services.
-2. **Run Script:** Execute the script with administrative privileges to ensure full functionality.
+1. **Prepare Configuration:** Create a `config.txt` file with the server names and associated services, or edit the one included in the repo.
+2. **Run Script:** Execute the script with appropiate administrative privileges to ensure full functionality.
 3. **Manage Services:** Use the GUI to manage the services across your servers.
 
 ### Example `config.txt`
