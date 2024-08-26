@@ -1,0 +1,8 @@
+# Add first server
+server=Server1
+# Add services related to that service
+services=ServiceA, ServiceB
+
+#Repeat as needed
+server=Server2
+services=ServiceC, ServiceD
