@@ -21,7 +21,16 @@ The Service Helper is a PowerShell script with a graphical user interface (GUI) 
 2. **Run Script:** Execute the script with administrative privileges to ensure full functionality.
 3. **Manage Services:** Use the GUI to manage the services across your servers.
 
-## Requirements for Remote Servers
+### Example `config.txt`
+```plaintext
+server=Server1
+services=ServiceA, ServiceB
+
+server=Server2
+services=ServiceC, ServiceD
+```
+
+## Troubleshooting and Requirements for Remote Servers
 Depending on your setup, this script may (and is likely to) run out of the box. If something fails, maybe one of these requirements is not met.
 
 For the remote servers to be managed by the Service Helper PowerShell script, they must meet the following requirements:
@@ -65,10 +74,4 @@ For the remote servers to be managed by the Service Helper PowerShell script, th
      ```
 
 
-## Example `config.txt`
-```plaintext
-server=Server1
-services=ServiceA, ServiceB
 
-server=Server2
-services=ServiceC, ServiceD
